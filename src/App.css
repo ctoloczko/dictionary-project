@@ -39,3 +39,8 @@ h1 {
   height: auto;
   margin: 0 20px;
 }
+
+footer {
+  font-size: 12px;
+  margin: 30px auto;
+}
