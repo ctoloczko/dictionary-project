@@ -21,8 +21,8 @@ export default function Results(props) {
     return (
       <div className="centered-container">
         <Blocks
-          height="160"
-          width="160"
+          height="100"
+          width="100"
           color="#4fa94d"
           ariaLabel="blocks-loading"
           wrapperStyle={{}}
