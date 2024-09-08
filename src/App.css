@@ -1,0 +1,32 @@
+.App {
+  max-width: 900px;
+  margin: 40px auto;
+}
+.Attribute {
+  font-size: 10px;
+}
+
+h1 {
+  padding-left: 40px;
+}
+.Header {
+  display: flex;
+  align-items: center;
+}
+
+.vertical-text {
+  writing-mode: vertical-lr;
+  text-align: left;
+  margin-right: 3px;
+}
+
+.vertical-text-content {
+  margin: 0;
+  transform: rotate(180deg);
+  font-size: 10px;
+}
+
+.Logo {
+  max-width: 160px;
+  height: auto;
+}
