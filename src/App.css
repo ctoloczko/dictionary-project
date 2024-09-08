@@ -1,5 +1,5 @@
 .App {
-  max-width: 800px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 20px;
   font-family: "Urbanist", sans-serif;
@@ -8,6 +8,7 @@
 h1 {
   margin: 0;
   letter-spacing: 5px;
+  font-size: 48px !important;
 }
 
 .Header {
@@ -38,7 +39,7 @@ h1 {
 }
 
 .Logo {
-  max-width: 160px;
+  max-width: 200px;
   height: auto;
   margin: 0 20px;
 }
