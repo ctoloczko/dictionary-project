@@ -1,5 +1,6 @@
 import React from "react";
 import Meaning from "./Meaning";
+import { Blocks } from "react-loader-spinner";
 
 export default function Results(props) {
   if (props.results) {
@@ -17,6 +18,18 @@ export default function Results(props) {
       </>
     );
   } else {
-    return null;
+    return (
+      <div className="centered-container">
+        <Blocks
+          height="160"
+          width="160"
+          color="#4fa94d"
+          ariaLabel="blocks-loading"
+          wrapperStyle={{}}
+          wrapperClass="blocks-wrapper"
+          visible={true}
+        />
+      </div>
+    );
   }
 }
