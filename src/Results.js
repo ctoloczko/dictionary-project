@@ -1,13 +1,14 @@
 import React from "react";
 import Meaning from "./Meaning";
 import { Blocks } from "react-loader-spinner";
+import "./Dictionary.css";
 
 export default function Results(props) {
   if (props.results) {
     return (
       <>
-        <h2>{props.results.word}</h2>
-        <h>[ {props.results.phonetic} ]</h>
+        <h2 className="Word">{props.results.word}</h2>
+        <p className="Phonetics">[ {props.results.phonetic} ]</p>
 
         {props.results.meanings.map(function (meaning, index) {
           return (

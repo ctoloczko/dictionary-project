@@ -31,8 +31,10 @@ export default function Dictionary() {
           placeholder="Enter your word . . ."
           type="search"
           onChange={handleKeywordChange}
+          autoFocus
         />
       </form>
+
       <Results results={results} />
     </>
   );

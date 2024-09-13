@@ -4,3 +4,33 @@ form {
   align-items: center;
   margin: 40px auto 10px auto;
 }
+
+form input {
+  padding: 5px 15px;
+  border: 1 rgb(0, 0, 0, 0.5);
+  width: 75%;
+}
+
+.Synonyms li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.Word {
+  font-size: 50px;
+  margin: 40px auto 0;
+}
+
+.Phonetics {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.Meaning p {
+  margin: 5px auto;
+}
+
+.Meaning h3 {
+  margin-top: 20px;
+}
