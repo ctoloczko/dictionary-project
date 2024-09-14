@@ -5,6 +5,10 @@
   font-family: "Urbanist", sans-serif;
 }
 
+body {
+  background-color: aqua;
+}
+
 h1 {
   margin: 0;
   letter-spacing: 5px;
@@ -42,12 +46,6 @@ h1 {
   max-width: 200px;
   height: auto;
   margin: 0 20px;
-}
-
-.Synonyms li {
-  list-style: none;
-  display: inline-block;
-  margin-right: 5px;
 }
 
 footer {
