@@ -30,7 +30,7 @@ export default function App() {
             </p>
           </div>
 
-          <div className="me-5">
+          <div>
             <a
               href="https://www.freepik.com/free-vector/cute-girl-reading-book-cartoon-vector-icon-illustration-people-education-icon-concept-isolated-flat_59986662.htm#fromView=search&page=2&position=32&uuid=b68e62e6-b774-4684-9f71-9ec49847362b"
               target="_blank"
